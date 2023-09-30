@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+}
+
+.navigationBar {
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    position: sticky;
+    top: 0;
+
+}
+.navigationBar div{
+    flex-grow: 1;
+    background-color:orange;
+}
+.navigationBar div a{
+    color:black;
+}
+
+.Home {
+
+    display: flex;
+    text-align: center;
+
+    justify-content: center;
+
+    /*background-color: red;*/
+
+}
+.Home div{
+    width:300px;
+    height:300px;
+}
+.companyLogo{
+
+    overflow: hidden;
+    border-radius: 150px;
+    background-color: red;
+
+}
+
+.Pricing {
+    display: flex;
+    width:100%;
+    /*text-align: center;*/
+    justify-content: center;
+
+}
+.Pricing div{
+    margin: 1%;
+}
