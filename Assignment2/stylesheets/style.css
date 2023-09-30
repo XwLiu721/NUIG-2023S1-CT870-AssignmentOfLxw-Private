@@ -1,13 +1,18 @@
 h1{
+<<<<<<< HEAD
     text-align: Left;
 }
 body{
     background-color: aliceblue;
+=======
+    text-align: center;
+>>>>>>> origin/main
 }
 
 .navigationBar {
     display: flex;
     justify-content: right;
+<<<<<<< HEAD
     text-align: right;
     position: sticky;
     top: 0;
@@ -25,6 +30,16 @@ body{
 }
 .navigationBar div:nth-child(3){
     margin-right:2%;
+=======
+    text-align: center;
+    position: sticky;
+    top: 0;
+
+}
+.navigationBar div{
+    flex-grow: 1;
+    background-color:orange;
+>>>>>>> origin/main
 }
 .navigationBar div a{
     color:black;
